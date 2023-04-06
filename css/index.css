@@ -12,6 +12,22 @@ html {
     border-top: solid;
 }
 
+@media only screen and (max-width: 600px) {
+    .name-heading {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #skills {
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    #projects .card {
+        max-width: 100%;
+    }
+}
+
 #about-me h1 {
     font-family: 'Hammersmith One', sans-serif;
 }
@@ -243,4 +259,3 @@ a{
 }
 
 /* --------------- */
-
